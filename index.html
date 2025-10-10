@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>p3 - proyecto</title>
+  <title>p4 - proyecto</title>
   <style>
     * {
       padding: 0;
@@ -11,36 +11,48 @@
       box-sizing: border-box;
     }
     body {
-      background: #949494;
-      background: linear-gradient(90deg,rgba(148, 148, 148, 1) 0%, rgba(255, 0, 136, 0.75) 50%, rgba(148, 148, 148, 1) 100%);
-      font-family: Arial, Helvetica, sans-serif;
+      background: white;
+      font-family: Helvetica;
       font-weight: 400;
-      font-style: normal;
     }
     .container {
       max-width: 350px;
       margin: auto;
-      padding: 20px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      box-shadow: 0px 75px 170px rgba(255, 0, 187, 0.5);
     }
     header, h1, h2, h3, h4, ul {
       text-align: center;
     }
+    .burbuja {
+      background: rgba(0, 0, 0, 1);
+      border-radius: 1em;
+      padding: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
     h1 {
       padding: 30px 0 10px;
-      color: white;
-      font-size: 4em;
+      color: rgb(0, 0, 0);
+      font-size: 4.2em;
       line-height: 90%;
+      font-family: helvetica;
+      font-weight: bolder;
     }
     h2 {
       padding: 10px 0;
-      font-size: 1.5em;
-      color: rgb(255, 255, 255);
+      font-size: 1.8em;
+      color: rgb(0, 0, 0);
+      text-align: justify;
+      text-align-last: justify;
+      font-variant: [small-caps];
     }
     h3 {
       padding: 10px 0 30px;
-      font-size: 2em;
-      color: white;
+      font-size: 1.66em;
+      color: rgb(0, 0, 0);
+      text-align: justify;
+      text-align-last: justify;
+      font-variant: [small-caps];
     }
     h4 {
       font-size: 1.5em;
@@ -48,23 +60,19 @@
       color: rgb(255, 255, 255);
       border-radius: 1em;
     }
-    h2, h4 {
-  color: black;
-  text-shadow: 
-    }
     ul {
       padding: 20px 0;
       list-style: none;
-      color: white;
+      color: rgb(0, 0, 0);
       font-size: 1.2em;
     }
     ul li {
       margin: 5px 0;
-      color: white;
+      color: rgb(0, 0, 0);
     }
     p{
         text-align: justify;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     footer {
       margin-top: 20px;
@@ -72,7 +80,7 @@
       font-size: 0.9em;
     }
     footer a {
-      color: white;
+      color: rgb(0, 0, 0);
       text-decoration: underline;
     }
   </style>
@@ -82,55 +90,55 @@
     <header>
       <h1>BRAVA MADRID</h1>
       <h2>RECINTO FERIAL DE IFEMA MADRID</h2>
-      <h3>22-23.SEP.2023</h3>
+      <h3>22-23 · SEP · 2023</h3>
     </header>
 
     <main>
       <section>
-        <h4>VIERNES 22</h4>
+        <h4 class="burbuja">VIERNES 22</h4>
         <ul>
-          <li>Mika</li>
-          <li>Melanie C</li>
-          <li>Natasha Bedingfield</li>
-          <li>Belén Aguilera</li>
-          <li>Bresh</li>
-          <li>Vicco</li>
-          <li>Samantha Hudson</li>
-          <li>Ladilla Rusa</li>
-          <li>Samuraï</li>
-          <li>Jimena Amarillo</li>
-          <li>María Escarmiento</li>
-          <li>Mëstiza</li>
-          <li>Yenesi</li>
-          <li>Inés Hernand</li>
-          <li>Suri</li>
-          <li>Ana Julieta</li>
-          <li>Luceral</li>
+          <li>MIKA</li>
+          <li>MELANIE C</li>
+          <li>NATASHA BEDIGNFIELD</li>
+          <li>BELÉN AGUILERA</li>
+          <li>BRESH</li>
+          <li>VICCO</li>
+          <li>SAMANTHA HUDSON</li>
+          <li>LADILLA RUSA</li>
+          <li>SAMURAÏ</li>
+          <li>JIMENA AMARILLO</li>
+          <li>MARÍA ESCARMIENTO</li>
+          <li>MËSTIZO</li>
+          <li>YENESI</li>
+          <li>INÉS HERNAND</li>
+          <li>SURI</li>
+          <li>ANA JULIETA</li>
+          <li>LUCERAL</li>
         </ul>
       </section>
 
       <section>
-        <h4>SÁBADO 23</h4>
+        <h4 class="burbuja">SÁBADO 23</h4>
         <ul>
-          <li>Sugababes</li>
-          <li>Shangela</li>
-          <li>Loreen</li>
-          <li>Lolahol</li>
-          <li>Ojete Calor</li>
-          <li>Madrid Drag Brunch: Bingo Edition</li>
-          <li>Luna Ki</li>
-          <li>Marta Sango</li>
-          <li>Fusa Nocta</li>
-          <li>Luc Loren</li>
-          <li>Supremme De Luxe</li>
-          <li>Sofía Martín</li>
-          <li>La Prohibida & Algora</li>
-          <li>Vania Vainilla</li>
-          <li>Cris Tosio</li>
-          <li>De Felipe</li>
-          <li>Claudia León</li>
-          <li>Blondez</li>
-          <li>Nuria Scarp</li>
+          <li>SUGABABES</li>
+          <li>SHANGELA</li>
+          <li>LOREEN</li>
+          <li>LOLAHOL</li>
+          <li>OJETE CALOR</li>
+          <li>DRAG BRUNCH: BINGO EDITION</li>
+          <li>LUNA KI</li>
+          <li>MARTA SANGO</li>
+          <li>FUSA NOCTA</li>
+          <li>LUC LOREN</li>
+          <li>SUPREMME DE LUXE</li>
+          <li>SOFÍA MARTÍN</li>
+          <li>LA PROHIBIDA & ALGORA</li>
+          <li>VANIA VAINILLA</li>
+          <li>CRIS TOSIO</li>
+          <li>DE FELIPE</li>
+          <li>CALUDIA LEÓN</li>
+          <li>BLONDEZ</li>
+          <li>NURIA SCARP</li>
         </ul>
       </section>
     </main>
